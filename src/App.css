@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+
+
+.navbar {
+  background-color: black;
+  padding: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+div {
+
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+
+}
+.img-scale {
+  transition: transform 0.3s ease; 
+}
+
+
+.img-scale:hover {
+  transform: scale(1.2); 
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+/* Hero section styling */
+.hero-section {
+  background-color: rgba(216, 69, 69, 0.5); /* White with 50% transparency */
+  padding: 100px 0;
+  text-align: center;
+}
+
+/* Example styling for text */
+.hero-section h1 {
+  color: #ffffff; /* Black text */
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-section p {
+  color: #c7c7c7; /* Dark grey text */
+  font-size: 1.2rem;
+}
